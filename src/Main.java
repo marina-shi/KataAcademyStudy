@@ -1,7 +1,4 @@
-import Beginig.Array.GetArrayMiddle;
-import Beginig.Array.GetSubArrayBetween;
-import Beginig.Array.InverseArray;
-import Beginig.Array.PrintArray;
+import Beginig.Array.*;
 import Beginig.Cycle.IsWeekend;
 
 public class Main {
@@ -15,7 +12,8 @@ public class Main {
         // PrintArray.printArray(new int[]{1,2,3,4,5,5,6,7,7});
         // System.out.println(GetSubArrayBetween.getSubArrayBetween(new int[]{1,3,5,6,9,11,24}, 4, 10));
         // GetArrayMiddle.getArrayMiddle(new int[]{});
-        InverseArray.inverseArray(new int[]{1, 4, 6, 7});
+        // InverseArray.inverseArray(new int[]{1, 4, 6, 7});
+        MergeAndSort.mergeAndSort(new int[]{1, 3, 7, 5}, new int[]{8, 4, 2, 4});
 
     }
 }
